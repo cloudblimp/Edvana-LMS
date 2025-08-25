@@ -45,7 +45,7 @@ export const MyCourses = () => {
                   <td className="px-4 py-3">
                     {(course.coursePrice - (course.discount * course.coursePrice / 100)) === 0
                       ? "Free"
-                      : `₹ ${(course.coursePrice - (course.discount * course.coursePrice / 100)).toFixed(2)}`
+                      : `$ ${(course.coursePrice - (course.discount * course.coursePrice / 100)).toFixed(2)}`
                     }
                   </td>
 
